@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <div class="inner-container">
+                <div class="back"></div>
+                <div class="day"></div>
+                <div class="date"></div>
+            </div>
+            <div class="sity"></div>
+        </div>
+        <div class="main">
+            <div class="inner-container main-1">
+                <div class="">
+                    <div class="icon"><img alt=""></div>
+                    <div class="description"></div> 
+                </div>
+                <div class="temp">
+                    <div class="temp-numbers"></div>
+                    <div class="degree-sign">°</div>
+                    <div class="C">C</div>
+                </div>    
+            </div>  
+            <div class="main-2">
+               <div class="row">
+                    <div class="speed">
+                        <div class="left icon-img"><img src="./wind.svg" alt=""></div>
+                        <div class="speed-value"></div>
+                        <div>Wind</div>
+                    </div>
+                    <div class="humidity">
+                        <div class="right icon-img"><img src="./humidity.svg" alt=""></div>
+                        <div class="humidity-value"></div>
+                        <div>Humidity</div>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="pressure">
+                        <div class="left icon-img"><img src="./pressure.svg" alt=""></div>
+                        <div class="pressure-value"></div>
+                        <div>Pressure</div>
+                    </div>
+                    <div class="deg">
+                        <div class="right icon-img"><img src="./wind-deg.svg" alt=""></div>
+                        <div class="deg-value"></div>
+                        <div>wind deg</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- Modal -->
+        <div class="modal">
+            <div class="sity-choose">
+                <div class="choose">Choose the sity</div>
+                <select name="list" id="list" class="select">
+                    <option value="" selected="selected" hidden="hidden">Choose here</option>
+                    <option value="DNIPRO">Dnipro</option>
+                    <option value="TORONTO">Toronto</option>
+                    <option value="MONTREAL">Montreal</option>
+                    <option value="LODZ">Lodz</option>
+                </select>
+            </div>
+        </div>
+       
+
+
+
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

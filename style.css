@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Header */
+.header {
+    background-color: rgb(191, 113, 225);
+    border-radius: 25px 25px 0px 0px;  
+    padding-bottom: 15px; 
+}
+
+.inner-container {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin: 0 auto;
+    padding: 25px 0px 5px;  
+}
+
+.day {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.date {
+    font-size: 45px;
+    color: white;
+    font-weight: 400;
+}
+
+.sity {
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+
+}
+
+.main {
+    background-color: beige;
+    background-image: url(./background.jpeg);
+    background-size: 700px;
+    border-radius: 0px 0px 25px 25px;  
+}
+
+.sity {
+    margin-left: 75px;
+}
+
+/* Main */
+
+.main-1 {
+    border-bottom: 3px solid black;
+}
+
+.temp .degree-sign {
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.temp {
+    display: flex;
+}
+
+.temp-numbers,
+.C {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+ .degree-sign {
+    font-size: 50px;
+    font-weight: 700;
+} 
+
+.icon img {
+    width: 150px;
+    margin: -30px 0px -50px 0px;
+}
+
+.description {
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+/* Main-2 */
+
+.main-2{
+    padding: 0px 0px 20px 70px;
+    font-size: 30px;
+    font-weight: 500;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px 5px;
+    position: relative;
+}
+
+.right {
+    left: 200px;
+}
+
+.left {
+    left: -70px;
+}
+
+.icon-img {
+    position: absolute;
+    top: 30px;
+}
+
+.icon-img img {
+    width: 60px;
+}
+
+
+/* Modal */
+
+.modal-closed {
+    display: none;
+}
+
+.modal {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(./background-2.jpeg);
+    position: absolute;
+    top: 0px;
+    border-radius: 25px;
+    text-align: center;
+    
+
+}
+
+.choose {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    padding-top: 120px;
+}
+
+.select {
+    font-size: 40px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 3px solid;
+    color: white;
+}
+
+/* back */
+
+.back {
+    position: absolute;
+    background-image: url(./back-1.svg);
+    background-repeat: no-repeat;
+    content: '';
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    background-size: cover;
+}
+
+
